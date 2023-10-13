@@ -6,7 +6,7 @@
     - name: install apache server
       ansible.builtin.apt: 
         name:
-          - apche2
+          - apagitche2
         state: present
         update_cache: yes
   
